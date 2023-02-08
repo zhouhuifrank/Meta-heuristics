@@ -6,14 +6,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.7.8</version>
+        <relativePath/>
     </parent>
 
     <groupId>com.algorithm</groupId>
     <artifactId>Meta-heuristics</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>GeneticAlgorithm_TSP</module>
+        <module>GeneticAlgorithm_VRPTW</module>
+    </modules>
 
     <properties>
         <java.version>17</java.version>
